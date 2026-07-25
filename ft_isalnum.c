@@ -23,7 +23,6 @@ int	ft_isalnum(int c)
 // 	int b = '1';
 // 	int c = '!';
 
-
 // 	printf("%d\n", ft_isalnum(a));
 // 	printf("%d\n", ft_isalnum(b));
 // 	printf("%d\n", ft_isalnum(c));
