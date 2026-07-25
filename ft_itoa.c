@@ -12,16 +12,16 @@
 
 #include "libft.h"
 
+/* n == 0 なら '0'、n < 0 なら '-' の分を先に1文字数える */
 static int	count_num(long n)
 {
 	int	i;
 
 	i = 0;
 	if (n <= 0)
-	{
-		n *= -1;
 		i++;
-	}
+	if (n < 0)
+		n = -n;
 	while (n > 0)
 	{
 		n /= 10;

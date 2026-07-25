@@ -12,21 +12,21 @@
 
 #include "libft.h"
 
-int	ft_atoi(const char *nprt)
+int	ft_atoi(const char *nptr)
 {
 	int	num;
 	int	sign;
 
 	num = 0;
 	sign = 1;
-	while ((*nprt >= '\t' && *nprt <= '\r') || *nprt == ' ')
-		nprt++;
-	if (*nprt == '-')
+	while ((*nptr >= '\t' && *nptr <= '\r') || *nptr == ' ')
+		nptr++;
+	if (*nptr == '-')
 		sign = -1;
-	if (*nprt == '-' || *nprt == '+')
-		nprt++;
-	while (*nprt >= '0' && *nprt <= '9')
-		num = num * 10 + *nprt++ - '0';
+	if (*nptr == '-' || *nptr == '+')
+		nptr++;
+	while (*nptr >= '0' && *nptr <= '9')
+		num = num * 10 + *nptr++ - '0';
 	return (num * sign);
 }
 

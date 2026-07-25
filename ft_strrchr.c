@@ -20,8 +20,11 @@ char	*ft_strrchr(const char *s, int c)
 	while (*s)
 		s++;
 	while (s >= str)
-		if (*s-- == (char)c)
-			return ((char *)s + 1);
+	{
+		if (*s == (char)c)
+			return ((char *)s);
+		s--;
+	}
 	return (NULL);
 }
 
