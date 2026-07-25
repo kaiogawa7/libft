@@ -1,0 +1,34 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kaogawa <kaogawa@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/07/25 10:11:12 by kaogawa           #+#    #+#             */
+/*   Updated: 2026/07/25 10:11:12 by kaogawa          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+void	ft_bzero(void *s, size_t n)
+{
+	unsigned char	*str;
+
+	str = (unsigned char *)s;
+	while (n--)
+	{
+		*str = '\0';
+		str++;
+	}
+}
+
+// int	main(void)
+// {
+// 	char	a[] = "hello";
+
+// 	ft_bzero(a, 2);
+// 	printf("a[0]: %d\n", a[0]); //
+// 	printf("a[2]: %c\n", a[2]); //
+// }
