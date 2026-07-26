@@ -6,7 +6,7 @@
 /*   By: kaogawa <kaogawa@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/25 10:15:25 by kaogawa           #+#    #+#             */
-/*   Updated: 2026/07/25 10:15:25 by kaogawa          ###   ########.fr       */
+/*   Updated: 2026/07/25 19:31:55 by kaogawa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,19 @@ char	*ft_strrchr(const char *s, int c)
 // 	char	a[] = "Hello";
 // 	int		b;
 // 	int		c;
+// 	char	*result;
 
 // 	b = 'l';
 // 	c = 'a';
-// 	printf("%s\n", ft_strrchr(a, b));
-// 	printf("%s\n", ft_strrchr(a, c));
+// 	result = ft_strrchr(a, b);
+// 	if (result)
+// 		printf("%s\n", result);
+// 	else
+// 		printf("not found\n");
+// 	result = ft_strrchr(a, c);
+// 	if (result)
+// 		printf("%s\n", result);
+// 	else
+// 		printf("not found\n");
 // 	return (0);
 // }

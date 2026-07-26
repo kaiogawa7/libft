@@ -6,7 +6,7 @@
 /*   By: kaogawa <kaogawa@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/25 10:11:12 by kaogawa           #+#    #+#             */
-/*   Updated: 2026/07/25 10:11:12 by kaogawa          ###   ########.fr       */
+/*   Updated: 2026/07/25 21:03:26 by kaogawa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,5 @@ void	ft_bzero(void *s, size_t n)
 
 // 	ft_bzero(a, 2);
 // 	printf("a[0]: %d\n", a[0]); //
-// 	printf("a[2]: %c\n", a[2]); //
+// 	printf("a[2]: %c\n", a[4]); //
 // }

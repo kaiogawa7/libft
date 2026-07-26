@@ -6,7 +6,7 @@
 /*   By: kaogawa <kaogawa@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/25 10:15:15 by kaogawa           #+#    #+#             */
-/*   Updated: 2026/07/25 10:15:15 by kaogawa          ###   ########.fr       */
+/*   Updated: 2026/07/25 19:38:42 by kaogawa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 
 // int	main(void)
 // {
+// 	printf("%d\n", ft_strncmp("Hello", "Help", 3));
+// 	printf("%d\n", ft_strncmp("Hello", "Help", 4));
 // 	return (0);
 // }

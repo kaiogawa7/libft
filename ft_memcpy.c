@@ -6,7 +6,7 @@
 /*   By: kaogawa <kaogawa@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/25 10:13:19 by kaogawa           #+#    #+#             */
-/*   Updated: 2026/07/25 10:13:19 by kaogawa          ###   ########.fr       */
+/*   Updated: 2026/07/26 11:05:19 by kaogawa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,18 +34,16 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 // 	int		dest2[5];
 // 	void	*res;
 
-// 	// --- テスト1: 文字列のコピー ---
 // 	printf("--- Test 1: String Copy ---\n");
-// 	ft_memcpy(dest1, src1, 6); // "Hello," までコピー
-// 	dest1[6] = '\0';           // 終端文字を忘れずに
+// 	ft_memcpy(dest1, src1, 6);
+// 	dest1[6] = '\0';
 // 	printf("Result: [%s] (Expected: [Hello,])\n", dest1);
-// 	// --- テスト2: 数値配列（int）のコピー ---
+
 // 	printf("\n--- Test 2: Int Array Copy ---\n");
-// 	ft_memcpy(dest2, src2, sizeof(int) * 3); // 最初の3つだけコピー
+// 	ft_memcpy(dest2, src2, sizeof(int) * 3);
 // 	for (int i = 0; i < 3; i++)
 // 		printf("dest2[%d]: %d\n", i, dest2[i]);
-// 	// --- テスト3: NULLガードの確認 ---
-// 	// 両方が NULL のとき、セグフォ（強制終了）せずに NULL を返すか
+
 // 	printf("\n--- Test 3: NULL Check ---\n");
 // 	res = ft_memcpy(NULL, NULL, 5);
 // 	if (res == NULL)
