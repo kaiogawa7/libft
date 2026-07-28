@@ -28,3 +28,14 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return ((int)(*d1 - *d2));
 }
+
+// int	main(void)
+// {
+// 	char	a[] = "Hello";
+// 	char	b[] = "Help";
+
+// 	printf("%d\n", ft_memcmp(a, b, 3));
+// 	printf("%d\n", ft_memcmp(a, b, 4));
+// 	printf("%d\n", ft_memcmp("abc", "abc", 3));
+// 	return (0);
+// }

@@ -6,7 +6,7 @@
 /*   By: kaogawa <kaogawa@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/25 10:14:10 by kaogawa           #+#    #+#             */
-/*   Updated: 2026/07/25 10:14:10 by kaogawa          ###   ########.fr       */
+/*   Updated: 2026/07/28 00:59:26 by kaogawa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -107,7 +107,7 @@ char	**ft_split(char const *s, char c)
 	return (words);
 }
 
-// // int	main(void)
+// int	main(void)
 // {
 // 	const char	*str = "I am Yumi Sekioka";
 // 	char		c;

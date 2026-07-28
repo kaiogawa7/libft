@@ -6,7 +6,7 @@
 /*   By: kaogawa <kaogawa@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/25 10:14:21 by kaogawa           #+#    #+#             */
-/*   Updated: 2026/07/25 10:14:21 by kaogawa          ###   ########.fr       */
+/*   Updated: 2026/07/29 08:28:57 by kaogawa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,15 +25,15 @@ char	*ft_strdup(const char *src)
 	return (dest);
 }
 
-/* int	main(void){
-	char *src = "Hello 42";
-	char *dest = ft_strdup(src);
+// int	main(void)
+// {
+// 	char *src = "Hello 42";
+// 	char *dest = ft_strdup(src);
 
-	if (!dest)
-		dprintf(2, "Allocation Failed\n");
-	else
-		printf("the string got dupped to dest: %s", dest);
-	free(dest);
-	return (0);
-}
- */
+// 	if (!dest)
+// 		dprintf(2, "Allocation Failed\n");
+// 	else
+// 		printf("the string got dupped to dest: %s", dest);
+// 	free(dest);
+// 	return (0);
+// }

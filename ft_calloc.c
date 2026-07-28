@@ -6,7 +6,7 @@
 /*   By: kaogawa <kaogawa@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/20 15:21:01 by kaogawa           #+#    #+#             */
-/*   Updated: 2026/07/20 15:21:01 by kaogawa          ###   ########.fr       */
+/*   Updated: 2026/07/28 08:45:12 by kaogawa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 // 	int	b;
 
 // 	a = 10;
-// 	b = 0;
+// 	b = 4;
 // 	printf("%p", ft_calloc(a, b));
 // 	return (0);
 // }
