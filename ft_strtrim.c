@@ -6,7 +6,7 @@
 /*   By: kaogawa <kaogawa@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/25 10:15:32 by kaogawa           #+#    #+#             */
-/*   Updated: 2026/07/25 10:15:32 by kaogawa          ###   ########.fr       */
+/*   Updated: 2026/07/30 21:28:45 by kaogawa          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	return (trim);
 }
 
-// //int	main(void)
+// int	main(void)
 // {
 // 	const char	*s1 = "!!!Hello 42!!!";
 // 	const char	*set = "!";
