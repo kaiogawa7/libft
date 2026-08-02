@@ -36,3 +36,33 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (nlst);
 }
+
+// static void	*add_bang(void *content)
+// {
+// 	return (ft_strjoin((char *)content, "!"));
+// }
+
+// static void	del_nothing(void *content)
+// {
+// 	(void)content;
+// }
+
+// int	main(void)
+// {
+// 	t_list	*lst;
+// 	t_list	*nlst;
+// 	t_list	*node;
+
+// 	lst = ft_lstnew("A");
+// 	ft_lstadd_back(&lst, ft_lstnew("B"));
+// 	nlst = ft_lstmap(lst, add_bang, free);
+// 	node = nlst;
+// 	while (node)
+// 	{
+// 		printf("%s\n", (char *)node->content);
+// 		node = node->next;
+// 	}
+// 	ft_lstclear(&nlst, free);
+// 	ft_lstclear(&lst, del_nothing);
+// 	return (0);
+// }

@@ -24,3 +24,20 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (i);
 }
+
+// int	main(void)
+// {
+// 	t_list	a;
+// 	t_list	b;
+// 	t_list	c;
+
+// 	a.content = "A";
+// 	b.content = "B";
+// 	c.content = "C";
+// 	a.next = &b;
+// 	b.next = &c;
+// 	c.next = NULL;
+// 	printf("size: %d\n", ft_lstsize(&a));
+// 	printf("size of empty list: %d\n", ft_lstsize(NULL));
+// 	return (0);
+// }

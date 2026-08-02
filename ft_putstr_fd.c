@@ -21,12 +21,6 @@ void	ft_putstr_fd(char *s, int fd)
 
 // int	main(void)
 // {
-// 	int	fd;
-
-// 	fd = open("fd", O_RDWR | O_CREAT, 0644);
-// 	if (fd == -1)
-// 		return (1);
-// 	ft_putstr_fd("Hello 42", fd);
-// 	close(fd);
+// 	ft_putstr_fd("Hello 42\n", 1);
 // 	return (0);
 // }

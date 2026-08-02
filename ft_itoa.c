@@ -12,7 +12,6 @@
 
 #include "libft.h"
 
-/* n == 0 なら '0'、n < 0 なら '-' の分を先に1文字数える */
 static int	count_num(long n)
 {
 	int	i;
@@ -64,12 +63,15 @@ char	*ft_itoa(int n)
 	return (nbchar(nb, count, dest));
 }
 
-// // int	main(void)
+// int	main(void)
 // {
-// // 	int n = -42;
-// // 	int n2 = 42;
-// // 	printf("%s", ft_itoa(n));
-// // 	printf("%s", ft_itoa(n2));
-// // 	printf("%s", ft_itoa(0));
-// // 	return (0);
-// // }
+// 	int	n;
+// 	int	n2;
+
+// 	n = -42;
+// 	n2 = 42;
+// 	printf("%s", ft_itoa(n));
+// 	printf("%s", ft_itoa(n2));
+// 	printf("%s", ft_itoa(0));
+// 	return (0);
+// }

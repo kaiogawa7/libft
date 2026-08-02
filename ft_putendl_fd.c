@@ -22,12 +22,6 @@ void	ft_putendl_fd(char *s, int fd)
 
 // int	main(void)
 // {
-// 	int	fd;
-
-// 	fd = open("fd", O_RDWR | O_CREAT, 0644);
-// 	if (fd == -1)
-// 		return (1);
-// 	ft_putendl_fd("Hello", fd);
-// 	close(fd);
+// 	ft_putendl_fd("Hello", 1);
 // 	return (0);
 // }

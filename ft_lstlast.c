@@ -20,3 +20,19 @@ t_list	*ft_lstlast(t_list *lst)
 		lst = lst->next;
 	return (lst);
 }
+
+// int	main(void)
+// {
+// 	t_list	a;
+// 	t_list	b;
+// 	t_list	c;
+
+// 	a.content = "A";
+// 	b.content = "B";
+// 	c.content = "C";
+// 	a.next = &b;
+// 	b.next = &c;
+// 	c.next = NULL;
+// 	printf("last: %s\n", (char *)ft_lstlast(&a)->content);
+// 	return (0);
+// }

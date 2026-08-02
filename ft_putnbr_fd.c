@@ -31,14 +31,11 @@ void	ft_putnbr_fd(int n, int fd)
 
 // int	main(void)
 // {
-// 	int	fd;
-
-// 	fd = open("fd", O_RDWR | O_CREAT, 0644);
-// 	if (fd == -1)
-// 		return (1);
-// 	ft_putnbr_fd(123456789, fd);
-// 	close(fd);
+// 	ft_putnbr_fd(42, 1);
+// 	ft_putchar_fd('\n', 1);
+// 	ft_putnbr_fd(-42, 1);
+// 	ft_putchar_fd('\n', 1);
+// 	ft_putnbr_fd(0, 1);
+// 	ft_putchar_fd('\n', 1);
 // 	return (0);
 // }
-
-// okasi

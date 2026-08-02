@@ -23,3 +23,17 @@ t_list	*ft_lstnew(void *content)
 	node->next = NULL;
 	return (node);
 }
+
+// int	main(void)
+// {
+// 	t_list	*node;
+
+// 	node = ft_lstnew("Hello");
+// 	if (!node)
+// 		return (1);
+// 	printf("content: %s\n", (char *)node->content);
+// 	if (node->next == NULL)
+// 		printf("next: NULL\n");
+// 	free(node);
+// 	return (0);
+// }
